@@ -26,15 +26,12 @@
           "channel": "stable",
           "minCoreVersion": "0.0.0",
           "coreApiRange": null,
-          "dependencies": {
-            "node-cron": "^3.0.3",
-            "uuid": "^9.0.1"
-          },
           "requiresImageDeps": [],
           "tarball": "https://github.com/maaxton/marketplace/releases/download/v1/automation-1.0.2.zip",
           "size": 127668,
           "sha256": "716ea47783c1e1b206f5dd07714db57b100bb5ccdd3b63175ee920cd3e2f4446",
-          "sig": null
+          "sig": null,
+          "requires": []
         }
       ]
     },
@@ -66,7 +63,8 @@
           "tarball": "https://github.com/maaxton/marketplace/releases/download/v1/developer-tools-1.0.1.zip",
           "size": 36188,
           "sha256": "e54e58126ffa0a22d8e3215636304fbcc1a26d9059d99ae9c87eeb50bc5a63b7",
-          "sig": null
+          "sig": null,
+          "requires": []
         }
       ]
     },
@@ -94,14 +92,12 @@
           "channel": "stable",
           "minCoreVersion": "0.0.0",
           "coreApiRange": null,
-          "dependencies": {
-            "xml2js": "^0.6.2"
-          },
           "requiresImageDeps": [],
           "tarball": "https://github.com/maaxton/marketplace/releases/download/v1/device-discovery-1.0.0.zip",
           "size": 115503,
           "sha256": "152bf1c8203dc81fd0c69300955523a3bbd5b7e0cffdad8bbc7d988d385c1ef6",
-          "sig": null
+          "sig": null,
+          "requires": []
         }
       ]
     },
@@ -133,7 +129,8 @@
           "tarball": "https://github.com/maaxton/marketplace/releases/download/v1/device-widgets-1.0.0.zip",
           "size": 3281,
           "sha256": "f44ad7e03cc100b419419f97ffd5b645cf7a60afcdaa81a141fa450cb12ef95b",
-          "sig": null
+          "sig": null,
+          "requires": []
         }
       ]
     },
@@ -165,7 +162,8 @@
           "tarball": "https://github.com/maaxton/marketplace/releases/download/v1/extension-builder-1.0.1.zip",
           "size": 14440,
           "sha256": "2ba44d38c8dc9df52229717c19cf77bc98da77098a93b3165d78d3d7b36efdfd",
-          "sig": null
+          "sig": null,
+          "requires": []
         }
       ]
     },
@@ -193,14 +191,12 @@
           "channel": "stable",
           "minCoreVersion": "0.0.0",
           "coreApiRange": null,
-          "dependencies": {
-            "xml2js": "^0.6.2"
-          },
           "requiresImageDeps": [],
           "tarball": "https://github.com/maaxton/marketplace/releases/download/v1/roku-integration-1.3.1.zip",
           "size": 33417,
           "sha256": "774bb10c49cd0c96766f9c978df295f1894db6cb0de3ee9d5a3b742a60770264",
-          "sig": null
+          "sig": null,
+          "requires": []
         }
       ]
     },
@@ -231,17 +227,6 @@
           "channel": "stable",
           "minCoreVersion": "0.0.0",
           "coreApiRange": null,
-          "dependencies": {
-            "uuid": "^9.0.0",
-            "qrcode": "^1.5.3",
-            "multer": "^2.0.0",
-            "mime-types": "^2.1.35",
-            "satori": "^0.10.14",
-            "sharp": "^0.33.2",
-            "jszip": "^3.10.1",
-            "playwright": "^1.40.0",
-            "dompurify": "^3.2.5"
-          },
           "requiresImageDeps": [
             "chromium",
             "fonts"
@@ -249,7 +234,8 @@
           "tarball": "https://github.com/maaxton/marketplace/releases/download/v1/slidecast-2.0.66.zip",
           "size": 35180782,
           "sha256": "49e0278d1f85b06a8d84e8c70e7a18bc8206b647b73fe49d1c288a60f7453f52",
-          "sig": null
+          "sig": null,
+          "requires": []
         }
       ]
     },
@@ -281,7 +267,8 @@
           "tarball": "https://github.com/maaxton/marketplace/releases/download/v1/todo-extension-1.2.8.zip",
           "size": 10830,
           "sha256": "dcfc4aae81a735754bf86719961066c5a1412c14b3cf64a3b6598172a88fe73b",
-          "sig": null
+          "sig": null,
+          "requires": []
         }
       ]
     }
