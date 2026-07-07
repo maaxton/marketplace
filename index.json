@@ -32,7 +32,7 @@
           "coreApiRange": null,
           "requires": [],
           "requiresImageDeps": [],
-          "tarball": "https://github.com/maaxton/marketplace/releases/download/v5/automation-1.0.2.zip",
+          "tarball": "https://github.com/maaxton/marketplace/releases/download/v6/automation-1.0.2.zip",
           "size": 127887,
           "sha256": "908a9be63ca9214f7efa9fcf0728a2d1914654776e82be86a4bedd3fb3c1d1a5",
           "sig": null
@@ -68,7 +68,7 @@
           "coreApiRange": null,
           "requires": [],
           "requiresImageDeps": [],
-          "tarball": "https://github.com/maaxton/marketplace/releases/download/v5/developer-tools-1.0.1.zip",
+          "tarball": "https://github.com/maaxton/marketplace/releases/download/v6/developer-tools-1.0.1.zip",
           "size": 36188,
           "sha256": "0d706d5af4b2421cc7e6f72f883dc3e1172160e91b87b45799a5c715dc857de1",
           "sig": null
@@ -104,7 +104,7 @@
           "coreApiRange": null,
           "requires": [],
           "requiresImageDeps": [],
-          "tarball": "https://github.com/maaxton/marketplace/releases/download/v5/device-discovery-1.0.0.zip",
+          "tarball": "https://github.com/maaxton/marketplace/releases/download/v6/device-discovery-1.0.0.zip",
           "size": 115503,
           "sha256": "26ddcd3262783aeb03d86dafcc1ba0c996aedaa2d53fdf76143792a7ffe698b1",
           "sig": null
@@ -141,7 +141,7 @@
             "slidecast"
           ],
           "requiresImageDeps": [],
-          "tarball": "https://github.com/maaxton/marketplace/releases/download/v5/device-widgets-1.0.0.zip",
+          "tarball": "https://github.com/maaxton/marketplace/releases/download/v6/device-widgets-1.0.0.zip",
           "size": 3303,
           "sha256": "7e1e026a771c4313ae6a6c28a0587172c4d5afd011a042a0143da6e63d907c6a",
           "sig": null
@@ -177,7 +177,7 @@
           "coreApiRange": null,
           "requires": [],
           "requiresImageDeps": [],
-          "tarball": "https://github.com/maaxton/marketplace/releases/download/v5/extension-builder-1.0.2.zip",
+          "tarball": "https://github.com/maaxton/marketplace/releases/download/v6/extension-builder-1.0.2.zip",
           "size": 14941,
           "sha256": "2db4ce0f7bec3aa7800d92fa9f9f7d9f5a469f994a7472a49b5eba10df8d52fb",
           "sig": null
@@ -201,12 +201,12 @@
       ],
       "requiresImageDeps": [],
       "latest": {
-        "stable": "2.1.1",
+        "stable": "2.1.2",
         "prerelease": null
       },
       "versions": [
         {
-          "version": "2.1.1",
+          "version": "2.1.2",
           "channel": "stable",
           "minCoreVersion": "0.0.0",
           "coreApiRange": null,
@@ -214,9 +214,9 @@
             "device-discovery"
           ],
           "requiresImageDeps": [],
-          "tarball": "https://github.com/maaxton/marketplace/releases/download/v5/roku-integration-2.1.1.zip",
-          "size": 57981,
-          "sha256": "1a5160bc120a206cc4f76e2bc3e3c9f0552b604423ffadc66e7d7bdda1a1d1bd",
+          "tarball": "https://github.com/maaxton/marketplace/releases/download/v6/roku-integration-2.1.2.zip",
+          "size": 58958,
+          "sha256": "7e4c565cf9e78bf1af93cbe230b736a38022ebd9939258f74f818e4b2645499f",
           "sig": null
         }
       ]
@@ -256,7 +256,7 @@
             "chromium",
             "fonts"
           ],
-          "tarball": "https://github.com/maaxton/marketplace/releases/download/v5/slidecast-2.0.67.zip",
+          "tarball": "https://github.com/maaxton/marketplace/releases/download/v6/slidecast-2.0.67.zip",
           "size": 35211866,
           "sha256": "beaef6208b68c87c78090217c83aed81d41b3198b24ca70c6795adf01b8bca3e",
           "sig": null
@@ -292,7 +292,7 @@
           "coreApiRange": null,
           "requires": [],
           "requiresImageDeps": [],
-          "tarball": "https://github.com/maaxton/marketplace/releases/download/v5/todo-extension-1.2.8.zip",
+          "tarball": "https://github.com/maaxton/marketplace/releases/download/v6/todo-extension-1.2.8.zip",
           "size": 10830,
           "sha256": "00c3f48a3202f091bf0cfa1648e483c59a86901a67dffd509fefbbfe6ef6c46c",
           "sig": null
