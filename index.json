@@ -1,6 +1,6 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-07-09T00:00:00Z",
+ "generatedAt": "2026-07-09T01:00:00Z",
  "extensions": [
   {
    "name": "automation",
@@ -294,7 +294,7 @@
    ],
    "requiresImageDeps": [],
    "latest": {
-    "stable": "2.1.6",
+    "stable": "2.1.7",
     "prerelease": null
    },
    "versions": [
@@ -325,6 +325,21 @@
      "tarball": "https://github.com/maaxton/marketplace/releases/download/v11/roku-integration-2.1.6.zip",
      "size": 996631,
      "sha256": "6a9806f624f9802c40e0d0aef5de7aef0eac5cc9e5b345f0d1f59a2a88ef6d28",
+     "sig": null,
+     "changelog": null
+    },
+    {
+     "version": "2.1.7",
+     "channel": "stable",
+     "minCoreVersion": "0.0.0",
+     "coreApiRange": null,
+     "requires": [
+      "device-discovery"
+     ],
+     "requiresImageDeps": [],
+     "tarball": "https://github.com/maaxton/marketplace/releases/download/v12/roku-integration-2.1.7.zip",
+     "size": 997237,
+     "sha256": "fdde1da7cbd3f2ad422256d5929a1914089db99344bbc4fe4b31e3fdfe048d7e",
      "sig": null,
      "changelog": null
     }
