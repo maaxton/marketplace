@@ -1,420 +1,450 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-07-08T00:00:00Z",
-  "extensions": [
+ "schemaVersion": 1,
+ "generatedAt": "2026-07-09T00:00:00Z",
+ "extensions": [
+  {
+   "name": "automation",
+   "displayName": "Automation",
+   "description": "Rules, triggers, and workflows to automate your devices.",
+   "repo": "maaxton/automation",
+   "author": "Waiveo",
+   "license": "ISC",
+   "category": "Automation",
+   "icon": null,
+   "recommended": true,
+   "hidden": false,
+   "uninstallable": true,
+   "provides": [
+    "automation-engine",
+    "workflow-system",
+    "services-registry"
+   ],
+   "requiresImageDeps": [],
+   "latest": {
+    "stable": "1.0.3",
+    "prerelease": null
+   },
+   "versions": [
     {
-      "name": "automation",
-      "displayName": "Automation",
-      "description": "Rules, triggers, and workflows to automate your devices.",
-      "repo": "maaxton/automation",
-      "author": "Waiveo",
-      "license": "ISC",
-      "category": "Automation",
-      "icon": null,
-      "recommended": true,
-      "hidden": false,
-      "uninstallable": true,
-      "provides": [
-        "automation-engine",
-        "workflow-system",
-        "services-registry"
-      ],
-      "requiresImageDeps": [],
-      "latest": {
-        "stable": "1.0.3",
-        "prerelease": null
-      },
-      "versions": [
-        {
-          "version": "1.0.3",
-          "channel": "stable",
-          "minCoreVersion": "0.0.0",
-          "coreApiRange": null,
-          "requires": [],
-          "requiresImageDeps": [],
-          "tarball": "https://github.com/maaxton/marketplace/releases/download/v10/automation-1.0.3.zip",
-          "size": 129958,
-          "sha256": "76e4497ba0d054fb7bcf3dd4b1b4bd84a1e8529eeea370a6403320732cda0430",
-          "sig": null,
-          "changelog": null
-        }
-      ]
-    },
-    {
-      "name": "backups",
-      "displayName": "Backups",
-      "description": "Create, schedule, and restore system backups.",
-      "repo": "maaxton/backups",
-      "author": "Waiveo",
-      "license": "UNLICENSED",
-      "category": "System",
-      "icon": null,
-      "recommended": true,
-      "hidden": false,
-      "uninstallable": true,
-      "provides": [
-        "backups"
-      ],
-      "requiresImageDeps": [],
-      "latest": {
-        "stable": "0.1.0",
-        "prerelease": null
-      },
-      "versions": [
-        {
-          "version": "0.1.0",
-          "channel": "stable",
-          "minCoreVersion": "0.0.0",
-          "coreApiRange": null,
-          "requires": [],
-          "requiresImageDeps": [],
-          "tarball": "https://github.com/maaxton/marketplace/releases/download/v10/backups-0.1.0.zip",
-          "size": 37518,
-          "sha256": "b6dccb8b08f0628c6609c178252543e245230ea475513b8086309e0513ee36c0",
-          "sig": null,
-          "changelog": null
-        }
-      ]
-    },
-    {
-      "name": "comms",
-      "displayName": "Notifications",
-      "description": "Notification hub + inbox + coalescing + channel providers.",
-      "repo": "maaxton/comms",
-      "author": "Waiveo",
-      "license": "UNLICENSED",
-      "category": "System",
-      "icon": null,
-      "recommended": true,
-      "hidden": false,
-      "uninstallable": true,
-      "provides": [
-        "comms"
-      ],
-      "requiresImageDeps": [],
-      "latest": {
-        "stable": "0.1.0",
-        "prerelease": null
-      },
-      "versions": [
-        {
-          "version": "0.1.0",
-          "channel": "stable",
-          "minCoreVersion": "0.0.0",
-          "coreApiRange": null,
-          "requires": [
-            "system"
-          ],
-          "requiresImageDeps": [],
-          "tarball": "https://github.com/maaxton/marketplace/releases/download/v10/comms-0.1.0.zip",
-          "size": 18317,
-          "sha256": "dc0f355ef9dd50ea34237a63f6721b0f8c59b843a939dea038ac842b6d804ae0",
-          "sig": null,
-          "changelog": null
-        }
-      ]
-    },
-    {
-      "name": "developer-tools",
-      "displayName": "Developer Tools",
-      "description": "Debugging and development suite for Waiveo extension developers",
-      "repo": "maaxton/developer-tools",
-      "author": "Waiveo",
-      "license": "MIT",
-      "category": "Development",
-      "icon": null,
-      "recommended": false,
-      "hidden": false,
-      "uninstallable": true,
-      "provides": [
-        "developer-tools",
-        "debug-service"
-      ],
-      "requiresImageDeps": [],
-      "latest": {
-        "stable": "1.0.2",
-        "prerelease": null
-      },
-      "versions": [
-        {
-          "version": "1.0.2",
-          "channel": "stable",
-          "minCoreVersion": "0.0.0",
-          "coreApiRange": null,
-          "requires": [],
-          "requiresImageDeps": [],
-          "tarball": "https://github.com/maaxton/marketplace/releases/download/v10/developer-tools-1.0.2.zip",
-          "size": 38469,
-          "sha256": "5ee08f225f0c23e2cbbc13f51183c60d5e34998bcb33c14891c3a6101eb315a7",
-          "sig": null,
-          "changelog": null
-        }
-      ]
-    },
-    {
-      "name": "device-discovery",
-      "displayName": "Device Discovery",
-      "description": "Finds devices on your network via SSDP/mDNS.",
-      "repo": "maaxton/device-discovery",
-      "author": "Waiveo",
-      "license": "UNLICENSED",
-      "category": "Devices",
-      "icon": null,
-      "recommended": true,
-      "hidden": false,
-      "uninstallable": true,
-      "provides": [
-        "network-discovery",
-        "device-scanner"
-      ],
-      "requiresImageDeps": [],
-      "latest": {
-        "stable": "1.0.1",
-        "prerelease": null
-      },
-      "versions": [
-        {
-          "version": "1.0.1",
-          "channel": "stable",
-          "minCoreVersion": "0.0.0",
-          "coreApiRange": null,
-          "requires": [],
-          "requiresImageDeps": [],
-          "tarball": "https://github.com/maaxton/marketplace/releases/download/v10/device-discovery-1.0.1.zip",
-          "size": 119283,
-          "sha256": "e90a815e649c2929b5493ee5036c25f02a9e6efc2f970758cdb4a98fc7b43470",
-          "sig": null,
-          "changelog": null
-        }
-      ]
-    },
-    {
-      "name": "device-widgets",
-      "displayName": "Device Widgets",
-      "description": "Extension-provided interactive widgets for controlling platform devices (proves the widget-provider + interaction architecture).",
-      "repo": "maaxton/device-widgets",
-      "author": "Waiveo",
-      "license": "MIT",
-      "category": "Devices",
-      "icon": null,
-      "recommended": false,
-      "hidden": false,
-      "uninstallable": true,
-      "provides": [
-        "device-widgets"
-      ],
-      "requiresImageDeps": [],
-      "latest": {
-        "stable": "1.0.0",
-        "prerelease": null
-      },
-      "versions": [
-        {
-          "version": "1.0.0",
-          "channel": "stable",
-          "minCoreVersion": "0.0.0",
-          "coreApiRange": null,
-          "requires": [
-            "slidecast"
-          ],
-          "requiresImageDeps": [],
-          "tarball": "https://github.com/maaxton/marketplace/releases/download/v10/device-widgets-1.0.0.zip",
-          "size": 6555,
-          "sha256": "8b5bc8204cbbed4ff577db36bf8f6bbe64d2a97e28b3c0c0ee77c98264701422",
-          "sig": null,
-          "changelog": null
-        }
-      ]
-    },
-    {
-      "name": "marketplace",
-      "displayName": "Marketplace",
-      "description": "Install, update, and manage extensions from catalogs.",
-      "repo": "maaxton/marketplace",
-      "author": "Waiveo",
-      "license": "UNLICENSED",
-      "category": "System",
-      "icon": null,
-      "recommended": true,
-      "hidden": false,
-      "uninstallable": true,
-      "provides": [
-        "marketplace"
-      ],
-      "requiresImageDeps": [],
-      "latest": {
-        "stable": "0.2.0",
-        "prerelease": null
-      },
-      "versions": [
-        {
-          "version": "0.2.0",
-          "channel": "stable",
-          "minCoreVersion": "0.0.0",
-          "coreApiRange": null,
-          "requires": [],
-          "requiresImageDeps": [],
-          "tarball": "https://github.com/maaxton/marketplace/releases/download/v10/marketplace-0.2.0.zip",
-          "size": 48334,
-          "sha256": "7c2b5efb1c172959f80c1f74b7689c599f0a61586858fdf83f5d7bf2ead4c4a1",
-          "sig": null,
-          "changelog": null
-        }
-      ]
-    },
-    {
-      "name": "roku-integration",
-      "displayName": "Roku Integration",
-      "description": "Roku device discovery and control for Waiveo",
-      "repo": "maaxton/roku-integration",
-      "author": "Waiveo",
-      "license": "MIT",
-      "category": "Devices",
-      "icon": null,
-      "recommended": true,
-      "hidden": false,
-      "uninstallable": true,
-      "provides": [
-        "roku-control"
-      ],
-      "requiresImageDeps": [],
-      "latest": {
-        "stable": "2.1.5",
-        "prerelease": null
-      },
-      "versions": [
-        {
-          "version": "2.1.5",
-          "channel": "stable",
-          "minCoreVersion": "0.0.0",
-          "coreApiRange": null,
-          "requires": [
-            "device-discovery"
-          ],
-          "requiresImageDeps": [],
-          "tarball": "https://github.com/maaxton/marketplace/releases/download/v10/roku-integration-2.1.5.zip",
-          "size": 63507,
-          "sha256": "8a0c044d8a410d94d5073f63fc9004bae95289cc2839723372fd2289b5489d78",
-          "sig": null,
-          "changelog": null
-        }
-      ]
-    },
-    {
-      "name": "slidecast",
-      "displayName": "Slidecast",
-      "description": "Digital signage system - create slideshows and cast to TV screens",
-      "repo": "maaxton/slidecast",
-      "author": "Waiveo",
-      "license": "UNLICENSED",
-      "category": "Signage",
-      "icon": null,
-      "recommended": false,
-      "hidden": false,
-      "uninstallable": true,
-      "provides": [
-        "slidecast",
-        "digital-signage"
-      ],
-      "requiresImageDeps": [
-        "chromium",
-        "fonts"
-      ],
-      "latest": {
-        "stable": "2.0.68",
-        "prerelease": null
-      },
-      "versions": [
-        {
-          "version": "2.0.68",
-          "channel": "stable",
-          "minCoreVersion": "0.0.0",
-          "coreApiRange": null,
-          "requires": [],
-          "requiresImageDeps": [
-            "chromium",
-            "fonts"
-          ],
-          "tarball": "https://github.com/maaxton/marketplace/releases/download/v10/slidecast-2.0.68.zip",
-          "size": 35214564,
-          "sha256": "8c50ebae67a53cb0371ffd8149a4527b910e7f818f10a0d351873c9ffff1ad3b",
-          "sig": null,
-          "changelog": null
-        }
-      ]
-    },
-    {
-      "name": "system",
-      "displayName": "System",
-      "description": "Encrypted secrets + global variables for the platform.",
-      "repo": "maaxton/system",
-      "author": "Waiveo",
-      "license": "UNLICENSED",
-      "category": "System",
-      "icon": null,
-      "recommended": true,
-      "hidden": false,
-      "uninstallable": true,
-      "provides": [
-        "system"
-      ],
-      "requiresImageDeps": [],
-      "latest": {
-        "stable": "0.1.0",
-        "prerelease": null
-      },
-      "versions": [
-        {
-          "version": "0.1.0",
-          "channel": "stable",
-          "minCoreVersion": "0.0.0",
-          "coreApiRange": null,
-          "requires": [],
-          "requiresImageDeps": [],
-          "tarball": "https://github.com/maaxton/marketplace/releases/download/v10/system-0.1.0.zip",
-          "size": 14516,
-          "sha256": "f17d9bc4b20bf515da67417c07c9f80716e70a19bd699c255d090b921f427824",
-          "sig": null,
-          "changelog": null
-        }
-      ]
-    },
-    {
-      "name": "todo-extension",
-      "displayName": "Todo",
-      "description": "TODO list extension for Waiveo",
-      "repo": "maaxton/todo-extension",
-      "author": "Waiveo Team",
-      "license": "MIT",
-      "category": "Demo",
-      "icon": null,
-      "recommended": false,
-      "hidden": false,
-      "uninstallable": true,
-      "provides": [
-        "task-management",
-        "todo-list"
-      ],
-      "requiresImageDeps": [],
-      "latest": {
-        "stable": "1.2.8",
-        "prerelease": null
-      },
-      "versions": [
-        {
-          "version": "1.2.8",
-          "channel": "stable",
-          "minCoreVersion": "0.0.0",
-          "coreApiRange": null,
-          "requires": [],
-          "requiresImageDeps": [],
-          "tarball": "https://github.com/maaxton/marketplace/releases/download/v10/todo-extension-1.2.8.zip",
-          "size": 10830,
-          "sha256": "693401bec83a5606d345f2bef55d8759e60f81a1d40a4a69dad1b1dd1f85f1cc",
-          "sig": null,
-          "changelog": null
-        }
-      ]
+     "version": "1.0.3",
+     "channel": "stable",
+     "minCoreVersion": "0.0.0",
+     "coreApiRange": null,
+     "requires": [],
+     "requiresImageDeps": [],
+     "tarball": "https://github.com/maaxton/marketplace/releases/download/v10/automation-1.0.3.zip",
+     "size": 129958,
+     "sha256": "76e4497ba0d054fb7bcf3dd4b1b4bd84a1e8529eeea370a6403320732cda0430",
+     "sig": null,
+     "changelog": null
     }
-  ]
+   ]
+  },
+  {
+   "name": "backups",
+   "displayName": "Backups",
+   "description": "Create, schedule, and restore system backups.",
+   "repo": "maaxton/backups",
+   "author": "Waiveo",
+   "license": "UNLICENSED",
+   "category": "System",
+   "icon": null,
+   "recommended": true,
+   "hidden": false,
+   "uninstallable": true,
+   "provides": [
+    "backups"
+   ],
+   "requiresImageDeps": [],
+   "latest": {
+    "stable": "0.1.0",
+    "prerelease": null
+   },
+   "versions": [
+    {
+     "version": "0.1.0",
+     "channel": "stable",
+     "minCoreVersion": "0.0.0",
+     "coreApiRange": null,
+     "requires": [],
+     "requiresImageDeps": [],
+     "tarball": "https://github.com/maaxton/marketplace/releases/download/v10/backups-0.1.0.zip",
+     "size": 37518,
+     "sha256": "b6dccb8b08f0628c6609c178252543e245230ea475513b8086309e0513ee36c0",
+     "sig": null,
+     "changelog": null
+    }
+   ]
+  },
+  {
+   "name": "comms",
+   "displayName": "Notifications",
+   "description": "Notification hub + inbox + coalescing + channel providers.",
+   "repo": "maaxton/comms",
+   "author": "Waiveo",
+   "license": "UNLICENSED",
+   "category": "System",
+   "icon": null,
+   "recommended": true,
+   "hidden": false,
+   "uninstallable": true,
+   "provides": [
+    "comms"
+   ],
+   "requiresImageDeps": [],
+   "latest": {
+    "stable": "0.1.0",
+    "prerelease": null
+   },
+   "versions": [
+    {
+     "version": "0.1.0",
+     "channel": "stable",
+     "minCoreVersion": "0.0.0",
+     "coreApiRange": null,
+     "requires": [
+      "system"
+     ],
+     "requiresImageDeps": [],
+     "tarball": "https://github.com/maaxton/marketplace/releases/download/v10/comms-0.1.0.zip",
+     "size": 18317,
+     "sha256": "dc0f355ef9dd50ea34237a63f6721b0f8c59b843a939dea038ac842b6d804ae0",
+     "sig": null,
+     "changelog": null
+    }
+   ]
+  },
+  {
+   "name": "developer-tools",
+   "displayName": "Developer Tools",
+   "description": "Debugging and development suite for Waiveo extension developers",
+   "repo": "maaxton/developer-tools",
+   "author": "Waiveo",
+   "license": "MIT",
+   "category": "Development",
+   "icon": null,
+   "recommended": false,
+   "hidden": false,
+   "uninstallable": true,
+   "provides": [
+    "developer-tools",
+    "debug-service"
+   ],
+   "requiresImageDeps": [],
+   "latest": {
+    "stable": "1.0.2",
+    "prerelease": null
+   },
+   "versions": [
+    {
+     "version": "1.0.2",
+     "channel": "stable",
+     "minCoreVersion": "0.0.0",
+     "coreApiRange": null,
+     "requires": [],
+     "requiresImageDeps": [],
+     "tarball": "https://github.com/maaxton/marketplace/releases/download/v10/developer-tools-1.0.2.zip",
+     "size": 38469,
+     "sha256": "5ee08f225f0c23e2cbbc13f51183c60d5e34998bcb33c14891c3a6101eb315a7",
+     "sig": null,
+     "changelog": null
+    }
+   ]
+  },
+  {
+   "name": "device-discovery",
+   "displayName": "Device Discovery",
+   "description": "Finds devices on your network via SSDP/mDNS.",
+   "repo": "maaxton/device-discovery",
+   "author": "Waiveo",
+   "license": "UNLICENSED",
+   "category": "Devices",
+   "icon": null,
+   "recommended": true,
+   "hidden": false,
+   "uninstallable": true,
+   "provides": [
+    "network-discovery",
+    "device-scanner"
+   ],
+   "requiresImageDeps": [],
+   "latest": {
+    "stable": "1.0.1",
+    "prerelease": null
+   },
+   "versions": [
+    {
+     "version": "1.0.1",
+     "channel": "stable",
+     "minCoreVersion": "0.0.0",
+     "coreApiRange": null,
+     "requires": [],
+     "requiresImageDeps": [],
+     "tarball": "https://github.com/maaxton/marketplace/releases/download/v10/device-discovery-1.0.1.zip",
+     "size": 119283,
+     "sha256": "e90a815e649c2929b5493ee5036c25f02a9e6efc2f970758cdb4a98fc7b43470",
+     "sig": null,
+     "changelog": null
+    }
+   ]
+  },
+  {
+   "name": "device-widgets",
+   "displayName": "Device Widgets",
+   "description": "Extension-provided interactive widgets for controlling platform devices (proves the widget-provider + interaction architecture).",
+   "repo": "maaxton/device-widgets",
+   "author": "Waiveo",
+   "license": "MIT",
+   "category": "Devices",
+   "icon": null,
+   "recommended": false,
+   "hidden": false,
+   "uninstallable": true,
+   "provides": [
+    "device-widgets"
+   ],
+   "requiresImageDeps": [],
+   "latest": {
+    "stable": "1.0.1",
+    "prerelease": null
+   },
+   "versions": [
+    {
+     "version": "1.0.0",
+     "channel": "stable",
+     "minCoreVersion": "0.0.0",
+     "coreApiRange": null,
+     "requires": [
+      "slidecast"
+     ],
+     "requiresImageDeps": [],
+     "tarball": "https://github.com/maaxton/marketplace/releases/download/v10/device-widgets-1.0.0.zip",
+     "size": 6555,
+     "sha256": "8b5bc8204cbbed4ff577db36bf8f6bbe64d2a97e28b3c0c0ee77c98264701422",
+     "sig": null,
+     "changelog": null
+    },
+    {
+     "version": "1.0.1",
+     "channel": "stable",
+     "minCoreVersion": "0.0.0",
+     "coreApiRange": null,
+     "requires": [
+      "slidecast"
+     ],
+     "requiresImageDeps": [],
+     "tarball": "https://github.com/maaxton/marketplace/releases/download/v11/device-widgets-1.0.1.zip",
+     "size": 6682,
+     "sha256": "3834fafdff0999a9d2aba5121b70606bbccb8a94be1a64d8808b8f2302f457a7",
+     "sig": null,
+     "changelog": null
+    }
+   ]
+  },
+  {
+   "name": "marketplace",
+   "displayName": "Marketplace",
+   "description": "Install, update, and manage extensions from catalogs.",
+   "repo": "maaxton/marketplace",
+   "author": "Waiveo",
+   "license": "UNLICENSED",
+   "category": "System",
+   "icon": null,
+   "recommended": true,
+   "hidden": false,
+   "uninstallable": true,
+   "provides": [
+    "marketplace"
+   ],
+   "requiresImageDeps": [],
+   "latest": {
+    "stable": "0.2.0",
+    "prerelease": null
+   },
+   "versions": [
+    {
+     "version": "0.2.0",
+     "channel": "stable",
+     "minCoreVersion": "0.0.0",
+     "coreApiRange": null,
+     "requires": [],
+     "requiresImageDeps": [],
+     "tarball": "https://github.com/maaxton/marketplace/releases/download/v10/marketplace-0.2.0.zip",
+     "size": 48334,
+     "sha256": "7c2b5efb1c172959f80c1f74b7689c599f0a61586858fdf83f5d7bf2ead4c4a1",
+     "sig": null,
+     "changelog": null
+    }
+   ]
+  },
+  {
+   "name": "roku-integration",
+   "displayName": "Roku Integration",
+   "description": "Roku device discovery and control for Waiveo",
+   "repo": "maaxton/roku-integration",
+   "author": "Waiveo",
+   "license": "MIT",
+   "category": "Devices",
+   "icon": null,
+   "recommended": true,
+   "hidden": false,
+   "uninstallable": true,
+   "provides": [
+    "roku-control"
+   ],
+   "requiresImageDeps": [],
+   "latest": {
+    "stable": "2.1.6",
+    "prerelease": null
+   },
+   "versions": [
+    {
+     "version": "2.1.5",
+     "channel": "stable",
+     "minCoreVersion": "0.0.0",
+     "coreApiRange": null,
+     "requires": [
+      "device-discovery"
+     ],
+     "requiresImageDeps": [],
+     "tarball": "https://github.com/maaxton/marketplace/releases/download/v10/roku-integration-2.1.5.zip",
+     "size": 63507,
+     "sha256": "8a0c044d8a410d94d5073f63fc9004bae95289cc2839723372fd2289b5489d78",
+     "sig": null,
+     "changelog": null
+    },
+    {
+     "version": "2.1.6",
+     "channel": "stable",
+     "minCoreVersion": "0.0.0",
+     "coreApiRange": null,
+     "requires": [
+      "device-discovery"
+     ],
+     "requiresImageDeps": [],
+     "tarball": "https://github.com/maaxton/marketplace/releases/download/v11/roku-integration-2.1.6.zip",
+     "size": 996631,
+     "sha256": "6a9806f624f9802c40e0d0aef5de7aef0eac5cc9e5b345f0d1f59a2a88ef6d28",
+     "sig": null,
+     "changelog": null
+    }
+   ]
+  },
+  {
+   "name": "slidecast",
+   "displayName": "Slidecast",
+   "description": "Digital signage system - create slideshows and cast to TV screens",
+   "repo": "maaxton/slidecast",
+   "author": "Waiveo",
+   "license": "UNLICENSED",
+   "category": "Signage",
+   "icon": null,
+   "recommended": false,
+   "hidden": false,
+   "uninstallable": true,
+   "provides": [
+    "slidecast",
+    "digital-signage"
+   ],
+   "requiresImageDeps": [
+    "chromium",
+    "fonts"
+   ],
+   "latest": {
+    "stable": "2.0.68",
+    "prerelease": null
+   },
+   "versions": [
+    {
+     "version": "2.0.68",
+     "channel": "stable",
+     "minCoreVersion": "0.0.0",
+     "coreApiRange": null,
+     "requires": [],
+     "requiresImageDeps": [
+      "chromium",
+      "fonts"
+     ],
+     "tarball": "https://github.com/maaxton/marketplace/releases/download/v10/slidecast-2.0.68.zip",
+     "size": 35214564,
+     "sha256": "8c50ebae67a53cb0371ffd8149a4527b910e7f818f10a0d351873c9ffff1ad3b",
+     "sig": null,
+     "changelog": null
+    }
+   ]
+  },
+  {
+   "name": "system",
+   "displayName": "System",
+   "description": "Encrypted secrets + global variables for the platform.",
+   "repo": "maaxton/system",
+   "author": "Waiveo",
+   "license": "UNLICENSED",
+   "category": "System",
+   "icon": null,
+   "recommended": true,
+   "hidden": false,
+   "uninstallable": true,
+   "provides": [
+    "system"
+   ],
+   "requiresImageDeps": [],
+   "latest": {
+    "stable": "0.1.0",
+    "prerelease": null
+   },
+   "versions": [
+    {
+     "version": "0.1.0",
+     "channel": "stable",
+     "minCoreVersion": "0.0.0",
+     "coreApiRange": null,
+     "requires": [],
+     "requiresImageDeps": [],
+     "tarball": "https://github.com/maaxton/marketplace/releases/download/v10/system-0.1.0.zip",
+     "size": 14516,
+     "sha256": "f17d9bc4b20bf515da67417c07c9f80716e70a19bd699c255d090b921f427824",
+     "sig": null,
+     "changelog": null
+    }
+   ]
+  },
+  {
+   "name": "todo-extension",
+   "displayName": "Todo",
+   "description": "TODO list extension for Waiveo",
+   "repo": "maaxton/todo-extension",
+   "author": "Waiveo Team",
+   "license": "MIT",
+   "category": "Demo",
+   "icon": null,
+   "recommended": false,
+   "hidden": false,
+   "uninstallable": true,
+   "provides": [
+    "task-management",
+    "todo-list"
+   ],
+   "requiresImageDeps": [],
+   "latest": {
+    "stable": "1.2.8",
+    "prerelease": null
+   },
+   "versions": [
+    {
+     "version": "1.2.8",
+     "channel": "stable",
+     "minCoreVersion": "0.0.0",
+     "coreApiRange": null,
+     "requires": [],
+     "requiresImageDeps": [],
+     "tarball": "https://github.com/maaxton/marketplace/releases/download/v10/todo-extension-1.2.8.zip",
+     "size": 10830,
+     "sha256": "693401bec83a5606d345f2bef55d8759e60f81a1d40a4a69dad1b1dd1f85f1cc",
+     "sig": null,
+     "changelog": null
+    }
+   ]
+  }
+ ]
 }
