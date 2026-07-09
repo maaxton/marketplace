@@ -93,7 +93,7 @@
       ],
       "requiresImageDeps": [],
       "latest": {
-        "stable": "0.1.1",
+        "stable": "0.2.0",
         "prerelease": null
       },
       "versions": [
@@ -124,6 +124,21 @@
           "tarball": "https://github.com/maaxton/marketplace/releases/download/v13/comms-0.1.1.zip",
           "size": 163427,
           "sha256": "0bf304fac1f1d4a3150e4e460b3e5119d1b17c6cd535176437576b09b71772a2",
+          "sig": null,
+          "changelog": null
+        },
+        {
+          "version": "0.2.0",
+          "channel": "stable",
+          "minCoreVersion": "0.0.0",
+          "coreApiRange": null,
+          "requires": [
+            "system"
+          ],
+          "requiresImageDeps": [],
+          "tarball": "https://github.com/maaxton/marketplace/releases/download/v14/comms-0.2.0.zip",
+          "size": 165711,
+          "sha256": "487abc42b8ab2a4efdfbe25fb27dfbd4a40ed077143a1ff3a6b9375cf0a68d51",
           "sig": null,
           "changelog": null
         }
@@ -273,7 +288,7 @@
       ],
       "requiresImageDeps": [],
       "latest": {
-        "stable": "0.2.1",
+        "stable": "0.3.0",
         "prerelease": null
       },
       "versions": [
@@ -300,6 +315,19 @@
           "tarball": "https://github.com/maaxton/marketplace/releases/download/v13/marketplace-0.2.1.zip",
           "size": 93941,
           "sha256": "d6aeff97475f5f9ef911243b6525cb6f8d1173be7bc373ac806e071e9657309d",
+          "sig": null,
+          "changelog": null
+        },
+        {
+          "version": "0.3.0",
+          "channel": "stable",
+          "minCoreVersion": "0.0.0",
+          "coreApiRange": null,
+          "requires": [],
+          "requiresImageDeps": [],
+          "tarball": "https://github.com/maaxton/marketplace/releases/download/v14/marketplace-0.3.0.zip",
+          "size": 97100,
+          "sha256": "ae0649d6fe2bc9302114f53ab1896809b571381de0589308355d54a2d14f4aea",
           "sig": null,
           "changelog": null
         }
