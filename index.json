@@ -3,6 +3,8 @@
   "extensions": [
     "maaxton/roku-integration",
     "maaxton/device-discovery",
-    "maaxton/slidecast"
+    "maaxton/slidecast",
+    "maaxton/todo-extension",
+    "maaxton/developer-tools"
   ]
 }
