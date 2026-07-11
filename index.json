@@ -5,6 +5,13 @@
     "maaxton/device-discovery",
     "maaxton/slidecast",
     "maaxton/todo-extension",
-    "maaxton/developer-tools"
+    "maaxton/developer-tools",
+    "maaxton/automation",
+    "maaxton/marketplace-extension",
+    "maaxton/backups",
+    "maaxton/system",
+    "maaxton/comms",
+    "maaxton/device-widgets",
+    "maaxton/extension-builder"
   ]
 }
